@@ -1,12 +1,9 @@
-@font-face {
-  font-family: 'OpenSans';
-  src: url('../../assets/OpenSans-Light.ttf');
-}
+
 
 body {
   background-color: rgb(247, 247, 247);
   margin: 0;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 19px;
 }
 
