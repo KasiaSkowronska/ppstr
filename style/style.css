@@ -7,14 +7,12 @@ body {
   background-color: rgb(247, 247, 247);
   margin: 0;
   font-family: 'OpenSans';
+  font-size: 19px;
 }
 
 section {
   padding: 30px 60px;
 }
-
-
-/* TOP MENU */
 
 .nav-bar {
   /* background-color: rgb(224, 233, 240); */
@@ -53,8 +51,6 @@ section {
   color: gray;
 }
 
-/* MAIN */
-
 main {
   width: 70%;
   margin: auto;
@@ -73,6 +69,28 @@ main {
   margin-right: 20px;
 }
 
+.blue {
+  background-color: #bbcce8;
+}
+
+.function-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.function-list li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.function-icon {
+  margin: 10px;
+  height: 100px;
+  width: 200px;
+  border: 1px solid #cccccc;
+}
+
 .cta-container {
   margin: auto;
   /* border: 1px solid yellow; */
@@ -80,6 +98,18 @@ main {
 
 .cta-header {
   font-size: 60px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
 }
 
 .cta-button {
@@ -97,20 +127,8 @@ main {
   max-width: 140px;
 }
 
-.blue {
-  background-color: #bbcce8;
-}
-
 .subsection-header {
   margin-top: 30px;
-}
-
-.right {
-  text-align: right;
-}
-
-.center {
-  text-align: center;
 }
 
 .slogan{
@@ -128,6 +146,26 @@ main {
   display: flex;
   justify-content: space-between;
   margin: 40px auto 10px auto;
+}
+
+.examples > div {
+    margin: 10px;
+}
+
+.examples > div:nth-child(odd){
+  text-align: left;
+}
+
+.examples > div:nth-child(even){
+  text-align: right;
+}
+
+.example {
+  border: 1px solid #cccccc;
+  display: inline-block;
+  width: 45%;
+  height: 80px;
+  text-align: center;
 }
 
 .question-container {
