@@ -1,10 +1,14 @@
 
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../../assets/OpenSans-Light.ttf');
+}
 
 body {
   background-color: rgb(247, 247, 247);
   margin: 0;
   font-family: 'Open Sans';
-  font-size: 19px;
+  font-size: 17px;
 }
 
 section {
@@ -67,7 +71,7 @@ main {
 }
 
 .blue {
-  background-color: #bbcce8;
+  background: rgba(76, 81, 196, 0.4);
 }
 
 .function-list {
@@ -142,7 +146,6 @@ main {
 .icon-header {
   width: 100%;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 .computer-photo {
@@ -200,4 +203,80 @@ main {
 .profile-photo {
   width: 100%;
   height: 100%;
+}
+
+.box-section{
+  padding: 0;
+}
+
+.boxes{
+  display: table;
+  width: 100%;
+  height: 100%;
+  border-spacing: 50px 70px;
+  border-collapse: separate;
+}
+
+.box-row{
+display: table-row;
+}
+
+.box{
+  width: 50%;
+  display: table-cell;
+  text-align: center;
+ vertical-align:middle;
+ /* line-height: 8em; */
+ /* border: 1px solid black; */
+}
+
+.grey {
+  background-color: rgb(247, 247, 247);
+}
+
+/* .inbox-icon{
+  width: 100%;
+  height: 100%;
+} */
+
+.icon{
+  width: 65%;
+  height: 65%;
+}
+
+.teal {
+  color: #5050ae;
+}
+
+.pros-list{
+  /* list-style-type: none; */
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 15px;
+  /* font-weight: 200; */
+}
+
+
+.pros-header{
+  font-weight: bold;
+  color: #5050ae;
+  margin-bottom: 0px;
+  margin-top: 1.5em;
+}
+
+.pros-header + p {
+  margin-top: 2px;
+}
+
+.paragraph{
+  line-height: 1.75em;
+  font-size: 17px;
+}
+
+.submit-button{
+  height: 2em;
+padding: 5px 15px;
+  background-color: #5050ae;
+  font-size: 1em;
+  color: white;
 }
