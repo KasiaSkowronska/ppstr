@@ -101,7 +101,7 @@ main {
 }
 
 .blue{
-  background-color: #2688c7
+  background-color: #2688c7;
 }
 
 .teal {
@@ -137,6 +137,10 @@ main {
 
 .center {
   text-align: center;
+}
+
+.teal-text{
+  color: #2688c7;
 }
 
 .cta-button {
