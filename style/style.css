@@ -1,7 +1,23 @@
 
 @font-face {
-  font-family: 'OpenSans';
-  src: url('../../assets/OpenSans-Light.ttf');
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('../static/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../static/Open_Sans/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../static/Open_Sans/OpenSans-Bold.ttf') format('truetype');
 }
 
 body {
